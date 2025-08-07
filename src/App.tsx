@@ -89,23 +89,23 @@ function App() {
             
             <h1 className="text-6xl md:text-7xl font-bold mb-8 leading-tight">
               <span className="text-white">
-                Launch Your Business with a
+                Plug In a Fully-Managed Marketing Engine That Delivers 
               </span>
               <br />
               <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-                Fully Automated Lead Generation Machine
+                10+ Qualified Leads Per Week — or You Don't Pay
               </span>
             </h1>
             
             <p className="text-xl text-gray-400 mb-12 leading-relaxed max-w-4xl mx-auto font-light">
-              We build modern, conversion-focused landing pages powered by AI, with automated workflows, 
-              analytics, hosting, and ad management — so you can focus on growing your business, not 
-              figuring out marketing tech.
+              JsonAnalytix gives high-performing businesses a done-for-you system that generates, tracks, and closes 
+              leads — all without lifting a finger. From premium landing pages to cross-channel ad management and 
+              revenue attribution dashboards, we take care of everything. No leads in your inbox? No charge until there are.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-6 sm:space-y-0 sm:space-x-8">
               <button className="group bg-gradient-to-r from-cyan-500 to-blue-500 text-black px-10 py-5 rounded-lg text-lg font-semibold hover:shadow-2xl hover:shadow-cyan-500/25 transform hover:scale-105 transition-all duration-300 flex items-center space-x-3">
-                <span>Get My Marketing System</span>
+                <span>Deploy My Marketing Engine</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
               
