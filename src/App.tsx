@@ -3,7 +3,6 @@ import {
   Globe, 
   Settings, 
   BarChart3, 
-  MessageSquare, 
   Target, 
   TrendingUp,
   CheckCircle,
@@ -14,8 +13,7 @@ import {
   Zap,
   Shield,
   Workflow,
-  Sparkles,
-  ChevronRight
+  Sparkles
 } from 'lucide-react';
 
 function App() {
