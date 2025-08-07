@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { 
   Globe, 
   Settings, 
-  BarChart3, 
   Target, 
   TrendingUp,
   CheckCircle,
@@ -45,10 +44,11 @@ function App() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center space-x-3">
               <div className="relative">
-                <div className="w-10 h-10 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-lg flex items-center justify-center shadow-lg shadow-cyan-500/25">
-                  <BarChart3 className="w-5 h-5 text-black" />
-                </div>
-                <div className="absolute -top-1 -right-1 w-3 h-3 bg-cyan-400 rounded-full animate-pulse"></div>
+                <img 
+                  src="/jsonanalytix-logo.png" 
+                  alt="JsonAnalytix Logo" 
+                  className="w-10 h-10 object-contain"
+                />
               </div>
               <span className="text-2xl font-bold text-white">
                 JsonAnalytix
@@ -166,7 +166,7 @@ function App() {
                 description: "Expert campaign management across all major advertising platforms"
               },
               {
-                icon: BarChart3,
+                icon: TrendingUp,
                 title: "Real-Time Analytics",
                 description: "Custom dashboards powered by Supabase for actionable business insights"
               }
@@ -551,10 +551,11 @@ function App() {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-3 mb-6 md:mb-0">
               <div className="relative">
-                <div className="w-10 h-10 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-lg flex items-center justify-center shadow-lg shadow-cyan-500/25">
-                  <BarChart3 className="w-5 h-5 text-black" />
-                </div>
-                <div className="absolute -top-1 -right-1 w-3 h-3 bg-cyan-400 rounded-full"></div>
+                <img 
+                  src="/jsonanalytix-logo.png" 
+                  alt="JsonAnalytix Logo" 
+                  className="w-10 h-10 object-contain"
+                />
               </div>
               <span className="text-2xl font-bold">JsonAnalytix</span>
             </div>
