@@ -42,17 +42,14 @@ function App() {
       <header className="fixed top-0 w-full bg-black/80 backdrop-blur-xl border-b border-gray-800/50 z-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
-            <div className="flex items-center space-x-3">
+            <div className="flex items-center">
               <div className="relative">
                 <img 
                   src="/jsonanalytix-logo.png" 
                   alt="JsonAnalytix Logo" 
-                  className="w-10 h-10 object-contain"
+                  className="w-16 h-16 object-contain"
                 />
               </div>
-              <span className="text-2xl font-bold text-white">
-                JsonAnalytix
-              </span>
             </div>
             <div className="flex items-center space-x-8">
               <a href="tel:+1-678-824-5308" className="hidden md:flex items-center space-x-2 text-gray-400 hover:text-cyan-400 transition-all duration-300 group">
@@ -549,15 +546,14 @@ function App() {
       <footer className="bg-black border-t border-gray-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
-            <div className="flex items-center space-x-3 mb-6 md:mb-0">
+            <div className="flex items-center mb-6 md:mb-0">
               <div className="relative">
                 <img 
                   src="/jsonanalytix-logo.png" 
                   alt="JsonAnalytix Logo" 
-                  className="w-10 h-10 object-contain"
+                  className="w-16 h-16 object-contain"
                 />
               </div>
-              <span className="text-2xl font-bold">JsonAnalytix</span>
             </div>
             <div className="text-gray-400 text-center md:text-right">
               <div className="text-sm">© 2025 JsonAnalytix. All rights reserved.</div>
