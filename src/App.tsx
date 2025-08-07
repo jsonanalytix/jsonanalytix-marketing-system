@@ -55,11 +55,11 @@ function App() {
               </span>
             </div>
             <div className="flex items-center space-x-8">
-              <a href="tel:+1-555-123-4567" className="hidden md:flex items-center space-x-2 text-gray-400 hover:text-cyan-400 transition-all duration-300 group">
+              <a href="tel:+1-678-824-5308" className="hidden md:flex items-center space-x-2 text-gray-400 hover:text-cyan-400 transition-all duration-300 group">
                 <div className="w-10 h-10 bg-gray-900 border border-gray-800 rounded-lg flex items-center justify-center group-hover:border-cyan-500/50 transition-colors">
                   <Phone className="w-4 h-4" />
                 </div>
-                <span className="font-medium">(555) 123-4567</span>
+                <span className="font-medium">(678) 824-5308</span>
               </a>
               <button className="bg-gradient-to-r from-cyan-500 to-blue-500 text-black px-8 py-3 rounded-lg hover:shadow-lg hover:shadow-cyan-500/25 transition-all duration-300 font-semibold">
                 Get Started
@@ -108,13 +108,13 @@ function App() {
               </button>
               
               <div className="flex items-center space-x-6">
-                <a href="tel:+1-555-123-4567" className="group flex items-center space-x-3 text-gray-400 hover:text-cyan-400 transition-all duration-300">
+                <a href="tel:+1-678-824-5308" className="group flex items-center space-x-3 text-gray-400 hover:text-cyan-400 transition-all duration-300">
                   <div className="w-14 h-14 bg-gray-900 border border-gray-800 rounded-lg shadow-lg flex items-center justify-center group-hover:shadow-xl group-hover:border-cyan-500/50 transition-all duration-300">
                     <Phone className="w-6 h-6" />
                   </div>
                   <div className="text-left">
                     <div className="text-sm text-gray-500">Call us now</div>
-                    <div className="font-semibold">(555) 123-4567</div>
+                    <div className="font-semibold">(678) 824-5308</div>
                   </div>
                 </a>
               </div>
@@ -488,7 +488,7 @@ function App() {
                     value={formData.phone}
                     onChange={handleInputChange}
                     className="w-full px-6 py-4 rounded-lg bg-gray-800/50 border border-gray-700 text-white placeholder-gray-500 focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition-all duration-300"
-                    placeholder="(555) 123-4567"
+                    placeholder="(678) 824-5308"
                   />
                 </div>
                 <div>
@@ -527,17 +527,17 @@ function App() {
             <div className="mt-12 pt-8 border-t border-gray-800 text-center">
               <p className="text-gray-400 mb-6 font-light">Prefer to talk? Contact us directly:</p>
               <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-12">
-                <a href="tel:+1-555-123-4567" className="flex items-center space-x-3 text-gray-300 hover:text-cyan-400 font-semibold transition-colors group">
+                <a href="tel:+1-678-824-5308" className="flex items-center space-x-3 text-gray-300 hover:text-cyan-400 font-semibold transition-colors group">
                   <div className="w-12 h-12 bg-gray-800 border border-gray-700 rounded-lg flex items-center justify-center group-hover:border-cyan-500/50 transition-colors">
                     <Phone className="w-5 h-5" />
                   </div>
-                  <span>(555) 123-4567</span>
+                  <span>(678) 824-5308</span>
                 </a>
-                <a href="mailto:hello@jsonanalytix.com" className="flex items-center space-x-3 text-gray-300 hover:text-cyan-400 font-semibold transition-colors group">
+                <a href="mailto:jason@jsonanalytix.com" className="flex items-center space-x-3 text-gray-300 hover:text-cyan-400 font-semibold transition-colors group">
                   <div className="w-12 h-12 bg-gray-800 border border-gray-700 rounded-lg flex items-center justify-center group-hover:border-cyan-500/50 transition-colors">
                     <Mail className="w-5 h-5" />
                   </div>
-                  <span>hello@jsonanalytix.com</span>
+                  <span>jason@jsonanalytix.com</span>
                 </a>
               </div>
             </div>
