@@ -47,7 +47,7 @@ function App() {
                 <img 
                   src="/jsonanalytix-logo.png" 
                   alt="JsonAnalytix Logo" 
-                  className="w-16 h-16 object-contain"
+                  className="w-32 h-32 object-contain"
                 />
               </div>
             </div>
@@ -551,7 +551,7 @@ function App() {
                 <img 
                   src="/jsonanalytix-logo.png" 
                   alt="JsonAnalytix Logo" 
-                  className="w-16 h-16 object-contain"
+                  className="w-32 h-32 object-contain"
                 />
               </div>
             </div>
